@@ -15,7 +15,7 @@ const SearchForm = ({ onSearch }) => {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search for images..."
-        className="w-full max-w-md p-2 border shadow-md rounded-md text-lg text-gray-700"
+        className="w-full max-w-md p-3 border shadow-md rounded-md text-lg text-gray-700"
       />
       <button
         type="submit"
@@ -23,6 +23,7 @@ const SearchForm = ({ onSearch }) => {
       >
         Search
       </button>
+
     </form>
   );
 };
